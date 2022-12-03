@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/category/index",
+    "pages/detail/detail",
+    "pages/shopcart/index",
+    "pages/login/login",
+    "pages/center/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "网易严选",
+    "navigationBarBackgroundColor": "#0baa03",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#005500",
+    "selectedColor": "#13bf00",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "text": "首页",
+        "iconPath": "static/images/tabBar/tab-home.png",
+        "selectedIconPath": "static/images/tabBar/tab-home-current.png"
+      },
+      {
+        "pagePath": "pages/category/index",
+        "text": "分类",
+        "iconPath": "static/images/tabBar/tab-cate.png",
+        "selectedIconPath": "static/images/tabBar/tab-cate-current.png"
+      },
+      {
+        "pagePath": "pages/shopcart/index",
+        "text": "购物车",
+        "iconPath": "static/images/tabBar/tab-shopcart.png",
+        "selectedIconPath": "static/images/tabBar/tab-shopcart-current.png"
+      },
+      {
+        "pagePath": "pages/center/index",
+        "text": "个人中心",
+        "iconPath": "static/images/tabBar/tab-center.png",
+        "selectedIconPath": "static/images/tabBar/tab-center-current.png"
+      }
+    ]
+  },
+  "permission": {},
+  "usingComponents": {}
+}

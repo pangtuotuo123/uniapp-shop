@@ -1,0 +1,88 @@
+{
+
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationBarBackgroundColor": "#0baa03",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/category/index",
+			"style": {
+				"navigationBarTitleText": "分类",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/detail/detail",
+			"style": {
+				"navigationBarTitleText": "详情页",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/shopcart/index",
+			"style": {
+				"navigationBarTitleText": "购物车",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/center/index",
+			"style": {
+				"navigationBarTitleText": "个人",
+				"enablePullDownRefresh": false
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "网易严选",
+		"navigationBarBackgroundColor": "#0baa03",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	// tabbar
+	"tabBar": {
+		"color": "#005500",
+		"selectedColor": "#13bf00",
+		"list": [{
+				"pagePath": "pages/home/index",
+				"text": "首页",
+				"iconPath": "static/images/tabBar/tab-home.png",
+				"selectedIconPath": "static/images/tabBar/tab-home-current.png"
+			},
+			{
+				"pagePath": "pages/category/index",
+				"text": "分类",
+				"iconPath": "static/images/tabBar/tab-cate.png",
+				"selectedIconPath": "static/images/tabBar/tab-cate-current.png"
+			},
+			{
+				"pagePath": "pages/shopcart/index",
+				"text": "购物车",
+				"iconPath": "static/images/tabBar/tab-shopcart.png",
+				"selectedIconPath": "static/images/tabBar/tab-shopcart-current.png"
+			},
+			{
+				"pagePath": "pages/center/index",
+				"text": "个人中心",
+				"iconPath": "static/images/tabBar/tab-center.png",
+				"selectedIconPath": "static/images/tabBar/tab-center-current.png"
+			}
+		]
+	}
+
+
+}

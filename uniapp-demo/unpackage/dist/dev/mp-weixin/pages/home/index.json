@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "首页",
+  "navigationBarBackgroundColor": "#0baa03",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "card": "/pages/home/card/card",
+    "good": "/pages/home/good/good"
+  }
+}
